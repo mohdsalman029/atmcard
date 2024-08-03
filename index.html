@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM_CARD</title>
+  </head>
+  <body>
+    <div class="atmCard">
+      <div class="card front">
+        <div class="upper">
+          <div class="left">
+            <div class="slice">Slice</div>
+            <div class="logo">
+              <div class="chip">
+                <svg
+                  class="chipSize"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 48 48"
+                >
+                  <path
+                    fill="#ff9800"
+                    d="M5 35V13c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4v22c0 2.2-1.8 4-4 4H9c-2.2 0-4-1.8-4-4"
+                  />
+                  <path
+                    fill="#ffd54f"
+                    d="M43 21v-2H31c-1.1 0-2-.9-2-2s.9-2 2-2h1v-2h-1c-2.2 0-4 1.8-4 4s1.8 4 4 4h3v6h-3c-2.8 0-5 2.2-5 5s2.2 5 5 5h2v-2h-2c-1.7 0-3-1.3-3-3s1.3-3 3-3h12v-2h-7v-6zm-26 6h-3v-6h3c2.2 0 4-1.8 4-4s-1.8-4-4-4h-3v2h3c1.1 0 2 .9 2 2s-.9 2-2 2H5v2h7v6H5v2h12c1.7 0 3 1.3 3 3s-1.3 3-3 3h-2v2h2c2.8 0 5-2.2 5-5s-2.2-5-5-5"
+                  />
+                </svg>
+              </div>
+              <div class="vol">
+                <svg
+                  class="volRotate"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M337.78 362.819c-4.246-8.453-11.074-15.687-12.601-17.31c-3.05-3.241-7.535-7.397-13.589-11.505c-12.228-8.299-30.57-16.191-55.59-16.191s-43.362 7.892-55.59 16.191c-6.054 4.108-10.539 8.264-13.589 11.505a63 63 0 0 0-3.548 4.097c-.422.535-4.307 4.76-9.053 13.213L256 442z"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M425.25 279.287s-7.995-10.229-15.703-18.928c-5.983-6.753-18.1-17.71-30.901-26.377c-25.762-17.444-63.897-35.077-122.646-35.077s-96.884 17.633-122.646 35.077c-12.801 8.667-20.835 15.473-28.869 24.172S86.75 279.287 86.75 279.287l56.634 54.591l11.037-12.388l.187-.201c.2-.211.549-.573 1.044-1.065a91 91 0 0 1 4.709-4.326c4.294-3.693 10.823-8.733 19.473-13.804C197.103 291.97 222.709 281.78 256 281.78s58.897 10.19 76.166 20.314c8.65 5.071 15.179 10.111 19.473 13.804a91 91 0 0 1 4.709 4.326c.495.492.844.854 1.044 1.065l.187.201l.009.01l11.028 12.378z"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M512 195.36s-4.5-8.36-11.85-16.485c-4.391-4.855-6.219-7.406-11.155-12.511c-9.868-10.207-24.703-23.648-44.901-37.04C403.583 102.463 341.778 76 256 76s-147.583 26.463-188.094 53.324c-20.198 13.392-35.033 26.833-44.9 37.04c-4.937 5.105-8.639 9.411-11.156 12.511c-1.259 1.55-1.784 2.241-2.898 3.7C5.254 187.42 0 195.36 0 195.36l58.06 55.873l11.004-13.001l.002-.004l.002-.002l.08-.092q.133-.154.469-.529a100 100 0 0 1 2.144-2.309c1.962-2.056 4.979-5.083 9.02-8.76c8.092-7.361 20.236-17.28 36.189-27.221c31.891-19.872 78.774-39.709 139.03-39.709s107.139 19.837 139.03 39.709c15.953 9.941 28.097 19.86 36.189 27.221c4.041 3.677 7.058 6.704 9.02 8.76a100 100 0 0 1 2.144 2.309q.336.375.469.529l.036.042l.044.051l.002.001l.002.004l11.004 13.001z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="numbers">
+              <p>4844</p>
+              <p>9868</p>
+              <p>0044</p>
+              <p>0000</p>
+            </div>
+
+            <div class="valid">
+              <div class="expire">
+                <div class="text">
+                  EXP<br />
+                  DATE
+                </div>
+                <div class="number">02/25</div>
+              </div>
+
+              <div class="code">
+                <div class="text">
+                  SECURITY<br />
+                  CODE
+                </div>
+                <div class="number">387</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lower">
+          <div class="name">Mohd Salman</div>
+          <div class="visa">VISA</div>
+        </div>
+      </div>
+      <div class="card back">
+        <div class="backTop">
+          <p>Use all this card is subject to the card number agreement</p>
+          <p>help@slice.com</p>
+        </div>
+        <div class="trackbox">3 Track Magnetic Stripe</div>
+
+        <div class="backmid">
+          <svg
+            class="pigeon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 72 72"
+          >
+            <g stroke-width="2">
+              <path
+                fill="#9b9b9a"
+                d="m19.16 40.04l.428-2.06c-1.418-1.417-1.524-2.998-1.463-3.717c.046-.534-.206-4.356 6.538-10.89a10 10 0 0 0 1.735-2.201c.946-1.645 2.712-4.998 5.3-11.03c3.851-8.978 8.116 12.15 7.396 18.19c-.094.791-.977 5.316-1.11 6.102l-2.88 10.79"
+              />
+              <path
+                fill="#d0cfce"
+                d="M37.99 46.28c28.77-.928 18.56-38.05 17.63-33.41c-.928 4.64-27.84 31.55-30.62 27.84c-2.784-3.712-6.496-4.64-8.352-1.856s-2.784 3.712-2.784 3.712s5.568-.928 6.496.928s3.871 7.946 9.28 8.352c0 0 1.847.63 5.568 8.352c4.339 9.004 22.27 0 16.7-4.64c-5.568-4.64-9.28-2.784-12.06-4.64c-2.784-1.856-1.856-4.64-1.856-4.64z"
+              />
+              <path
+                fill="#3f3f3f"
+                d="M36.85 60.94c.037.355 9.492 1.853 15.31-5.424c.163-.204.872.177 1.083.24c1.388 4.092-7.656 9.27-11.99 8.018c-3.685-1.276-4.394-2.835-4.394-2.835zm.84-15.46c.085-1.762 21.08-2.961 18.18-31.95c-.146-1.46 2.328 6.428 2.414 7.844c1.692 14.66-8.256 26.27-20.59 24.11zm-5.17-7.76c3.818-5.379 4.203-19.26.953-29.22c-.455-1.395 3.475 4.933 3.964 6.265c2.39 6.636 2.672 12.93.564 18.39z"
+              />
+              <path
+                fill="#9b9b9a"
+                d="M23.88 47.87c2.378.01 3.846-3.287 3.168-5.632c-3.239-5.856-9.319-7.524-12.55.231c5.872-1.98 6.828 1.455 9.382 5.401"
+              />
+            </g>
+            <g
+              fill="none"
+              stroke="#000"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              stroke-width="2"
+            >
+              <path
+                d="M38.29 46.13c28.36-.915 18.3-37.51 17.38-32.93S28.23 44.3 25.48 40.64c-2.744-3.659-6.404-4.574-8.233-1.83s-2.744 3.659-2.744 3.659s5.489-.915 6.404.915s3.816 7.833 9.148 8.233c0 0 1.821.621 5.489 8.233c4.277 8.876 21.96 0 16.47-4.574c-5.489-4.574-9.148-2.744-11.89-4.574c-2.744-1.83-1.83-4.574-1.83-4.574z"
+              />
+              <path
+                d="M38.37 26.51c.314-7.019-3.262-24.11-6.481-16.06C28.23 19.598 26.4 22.34 26.4 22.34c-4.348 4.13-5.957 7.228-6.529 9.162"
+              />
+            </g>
+          </svg>
+          <div class="colorBox"></div>
+
+          <div class="bankDetail">
+            <div class="issue">ISSUED BY</div>
+            <div class="bankName">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M11.5 1L2 6v2h19V6m-5 4v7h3v-7M2 22h19v-3H2m8-9v7h3v-7m-9 0v7h3v-7z"
+                />
+              </svg>
+              <p class="sbm">SBM</p>
+              <p class="bankText">bank</p>
+            </div>
+          </div>
+        </div>
+        <div class="beliveBox">
+          <i>We believe you can fly.We believe you will fly</i>
+        </div>
+
+        <div class="backlower">
+          <div class="issuedDate">ISSUED DATE 02-2024</div>
+          <div class="validIndia">VALID ONLY IN INDIA</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

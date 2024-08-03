@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e1e1e2;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbb9c4;
+}
+
+.atmCard {
+  height: 250px; /*IMP*/
+  width: 400px; /*IMP*/
+  transition: 0.5s; /*IMP*/
+  perspective: 1000px;
+  transform-style: preserve-3d; /*IMP*/
+}
+
+.atmCard:hover {
+  transform: rotateY(180deg); /*IMP*/
+}
+
+.card {
+  height: 250px;
+  width: 400px;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #433182;
+  backface-visibility: hidden;
+  position: absolute; /*IMP*/
+  box-shadow: -8px -8px 20px #585172;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.chipSize {
+  font-size: 3rem;
+}
+
+.volRotate {
+  rotate: 90deg;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.expire {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 0.4rem;
+}
+
+.number {
+  font-size: 0.8rem;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.visa {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #433182;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.backTop {
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trackbox {
+  height: 50px;
+  background-color: #130937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backmid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pigeon {
+  transform: rotateY(180deg);
+  font-size: 3.5rem;
+}
+
+.colorBox {
+  width: 180px;
+  height: 30px;
+  background-color: #585172;
+}
+
+.bankName {
+  display: flex;
+  align-items: center;
+}
+
+.bankText {
+  font-size: 0.8rem;
+}
+
+.issue {
+  font-size: 0.5rem;
+}
+
+.beliveBox {
+  background-color: #130937;
+  height: 25px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backlower {
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.validIndia {
+  font-size: 0.7rem;
+}
